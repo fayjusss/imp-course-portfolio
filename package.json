@@ -1,0 +1,23 @@
+{
+  "name": "imp-course-portfolio",
+  "version": "1.0.0",
+  "description": "Study diary and Project portfolio for Interactive Multimedia Course from OAMK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fayjusss/imp-course-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fayjusss/imp-course-portfolio/issues"
+  },
+  "homepage": "https://github.com/fayjusss/imp-course-portfolio#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
