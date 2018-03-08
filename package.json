@@ -4,6 +4,7 @@
   "description": "Study diary and Project portfolio for Interactive Multimedia Course from OAMK",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
