@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+#container{
+  height: 400px;
+  width: 600px;
+  margin: 100px auto 0 auto;
+  padding: 40px;
+  box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.75);
+  text-align: center;
+}
+#chatbox{
+  width: 90%;
+  height: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lightgray;
+  border-radius: 5px;
+  overflow: scroll;
+  text-align: left;
+}
+
+input {
+
+  width: 90%;
+  height: 40px;
+  margin: 20px 0 20px 0;
+  padding: 10px;
+}
+
+button{
+  width: 90%;
+  height: 50px;
+  background-color: lightgray;
+}
+
+p{
+  padding-left: 25px;
+  text-align: initial;
+}
