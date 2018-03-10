@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Persons list</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/tasks/1.css">
+    <script src="/scripts/tasks/1.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-25">
+          <label for="nameInput">Name</label>
+        </div>
+        <div class="col-50">
+          <input id="nameInput" type="text" placeholder="Enter name...">
+        </div>
+        <div class="col-25">
+          <button onclick="requestAddPerson()">Add Person</button>
+        </div>
+      </div>
+    </div>
+    <ul id="personList">
+    </ul>
+  </body>
+</html>
