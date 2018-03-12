@@ -1,0 +1,120 @@
+body {
+	box-sizing: border-box;
+	background-color: Gainsboro;
+	font-family: "Times New Roman", Times, sans-serif;
+}
+
+#title h1 {
+	padding-left: 0.125em;
+	margin-top: 0.125em;
+	margin-bottom: 0.375em;
+	background-color: DarkGray;
+	font-size: 2.25em;
+	text-transform: uppercase;
+}
+
+#menu {
+	font-size: 1.75em;
+	text-transform: uppercase;
+	width: 20%;
+}
+
+#menu ul {
+  list-style-type: none;
+  float: left;
+}
+
+#menu li a {
+  display: block;
+  color: Black;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+#menu li a:hover {
+  background-color: DarkGray;
+}
+
+#horizontal {
+	display: none;
+}
+
+#content {
+	margin-left: 20%;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+.post {
+	margin-bottom: 2em;
+}
+
+.post h1 {
+	margin-top: 0.125em;
+  margin-bottom: 0.125em;
+	font-size:2.25em;
+	text-transform: uppercase;
+}
+
+.post h4 {
+	padding-left: 0.125em;
+	margin-bottom: 0.375em;
+	font-size: 1em;
+}
+
+.post p {
+	margin-top: 0.75em;
+	margin-bottom: 0.75em;
+	font-size: 1.25em;
+}
+
+.post .figures {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.post figure {
+	display: inline-block;
+  text-align: center;
+  padding: 0.5em;
+	border: thin silver solid;
+	width: 40%;
+	min-width: 200px;
+}
+
+.post figure img {
+	width: 100%;
+}
+
+.post figure figcaption {
+	margin-top: 0.4em;
+	font-style: italic;
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+	#menu {
+		margin: 0 auto;
+		text-align: center;
+		width: 100%;
+	}
+
+	#menu ul {
+	  float: none;
+	}
+
+	#menu li a {
+	  padding: 0.5em 0.25em;
+	}
+
+	#content {
+		margin-left: 0;
+	}
+
+	#horizontal {
+		display: block;
+	}
+}
