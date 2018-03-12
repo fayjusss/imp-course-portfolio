@@ -53,8 +53,8 @@ function dragStop(event) {
 window.onload = window.onresize = function() {
   canvas = document.getElementById("canvas");
   context = canvas.getContext('2d');
-  canvas.width = window.innerWidth * 0.8;
-  canvas.height = window.innerHeight * 0.8;
+  canvas.width = window.innerWidth * 0.6;
+  canvas.height = window.innerHeight * 0.6;
   context.strokeStyle = 'black';
   context.lineWidth = 2;
   context.lineCap = 'round';

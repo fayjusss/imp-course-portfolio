@@ -24,6 +24,7 @@ function onClick(e) {
   }
   else if (state == "gameover") {
     startGame();
+    document.getElementById("score").innerHTML = score;
   }
 }
 
