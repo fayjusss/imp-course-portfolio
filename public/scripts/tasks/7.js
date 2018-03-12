@@ -95,6 +95,6 @@ function drawCanvas() {
     context.fillStyle = "black";
     context.font = "40px Arial";
     context.textAlign = "center";
-    context.fillText("Start again", canvas.width/2, canvas.height/2 + 40);
+    context.fillText("Click to Start again", canvas.width/2, canvas.height/2 + 40);
   }
 }

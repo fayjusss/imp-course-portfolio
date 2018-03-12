@@ -20,7 +20,7 @@ $( document ).ready(function() {
   };
 
   var ajaxOptions = {
-    url: 'http://imp-portfolio-demonstration.herokuapp.com/json/persons.jsonp',
+    url: 'https://imp-portfolio-demonstration.herokuapp.com/json/persons.jsonp',
     dataType: 'jsonp',
     jsonpCallback: 'jsonCallback',
     success: updatePage,
