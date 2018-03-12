@@ -1,0 +1,27 @@
+*{
+  border:0;
+  padding:0;
+  margin:0;
+}
+
+h2 {
+  position: absolute;
+  top: 2%;
+  left: 20%;
+}
+
+h2:nth-child(2) {
+  top: 8%;
+}
+
+#canvas {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    border: 1px solid gray;
+    background-color: lightgray;
+    box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.75);
+}
